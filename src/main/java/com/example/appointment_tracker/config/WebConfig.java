@@ -28,7 +28,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
-                        .allowedOrigins("https://uhh-app-tracker-frontend-865706667664.us-central1.run.app")
+                        .allowedOrigins("https://uhh-app-tracker-frontend-220238506824.us-central1.run.app")
                         .allowedMethods("GET", "POST", "PUT", "DELETE");
             }
         };
